@@ -76,29 +76,29 @@ $ npm start
 There are total 26 test cases.
 
 Contract: Recycles.ist Test Cases
-✓ - should have enough balance to create recycle
-✓ - should be able to create recycle when the amount is sufficient
-✓ - should emit a RecycleCreated event when a recycle is created
-✓ - should not create a recycle when the app is paused
-✓ - should be able to get a recycle by recycle id
-✓ - should be able to get all stored recycles
-✓ - should not join a non exist recycle
-✓ - should join a recycle
-✓ - should not join a recycle if already joined
-✓ - should emit a UserJoinedRecycle event when joined a recycle
-✓ - should not join a recycle when the app is paused
-✓ - should not contribute a non exists recycle
-✓ - should not contribute if not joined a recycle
-✓ - should contribute if joined a recycle
-✓ - should emit a ContributionCreated event when contribution is made
-✓ - should not contribute if already contributed the same recycle
-✓ - should be able to get contribution by contribution id
-✓ - should be able to get all stored contributions
-✓ - should not contribute when the app is paused
-✓ - should not approve if not recycle owner
-✓ - should approve a contribution when the approver is recycle owner and contribution is not approved before
-✓ - should not approve if a contribution is approved before
-✓ - should not approve when the app is paused
-✓ - should not allow to claim reward tokens if user is not contributed
-✓ - should not allow to claim reward tokens if contribution is not approved
-✓ - should claim reward tokens if joined a recycle and made an approved contribution
+ - should have enough balance to create recycle
+ - should be able to create recycle when the amount is sufficient
+ - should emit a RecycleCreated event when a recycle is created
+ - should not create a recycle when the app is paused
+ - should be able to get a recycle by recycle id
+ - should be able to get all stored recycles
+ - should not join a non exist recycle
+ - should join a recycle
+ - should not join a recycle if already joined
+ - should emit a UserJoinedRecycle event when joined a recycle
+ - should not join a recycle when the app is paused
+ - should not contribute a non exists recycle
+ - should not contribute if not joined a recycle
+ - should contribute if joined a recycle
+ - should emit a ContributionCreated event when contribution is made
+ - should not contribute if already contributed the same recycle
+ - should be able to get contribution by contribution id
+ - should be able to get all stored contributions
+ - should not contribute when the app is paused
+ - should not approve if not recycle owner
+ - should approve a contribution when the approver is recycle owner and contribution is not approved before
+ - should not approve if a contribution is approved before
+ - should not approve when the app is paused
+ - should not allow to claim reward tokens if user is not contributed
+ - should not allow to claim reward tokens if contribution is not approved
+ - should claim reward tokens if joined a recycle and made an approved contribution
