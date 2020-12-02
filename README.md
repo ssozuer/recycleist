@@ -1,7 +1,7 @@
 # recycleist
 
 Recycleist is a blockchain based recycle waste management system with the main goal which is incentivizing people about recycling. Anyone can create a _recycle events_ by providing reward. The reward money is ether and it is given the users who contributed the _recycle events_.
-For Live [Demo](https://breakdance.github.io/breakdance/)
+For Live [Demo](https://recycleist.herokuapp.com/)
 
 # Features
 
